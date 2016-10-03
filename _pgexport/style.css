@@ -1,0 +1,80 @@
+/*
+Theme Name: pg_acfpro
+Theme URI: http://example.com
+Author: Your name
+Author URI: http://pinegrow.com/
+Description: This theme was created with Pinegrow Web Editor.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pg_acfpro
+*/
+
+
+body
+{
+    background: #F5F5F5;
+}
+
+.acf-wrapper
+{
+    background: #ffffff;
+}
+
+.panel-footer
+{
+    margin-top: 0;
+}
+
+.acf-jumbotron
+{
+    margin-bottom: 0px;
+}
+
+.acf-section
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.color-01
+{
+    color: #ffffff;
+}
+
+.bg-01
+{
+    background: #ffcd00;
+}
+
+.bg-02
+{
+    background: #b2c9f1;
+}
+
+.bg-03
+{
+    background: #F4003A;
+}
+
+.acf-inner-section
+{
+    padding: 30px 40px 45px;
+    text-align: center;
+}
+
+.center
+{
+    margin: 0px auto;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+}
+
+.jumbotron
+{
+    margin-bottom: 0;
+}
+

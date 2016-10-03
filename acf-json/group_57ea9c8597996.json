@@ -1,0 +1,499 @@
+{
+    "key": "group_57ea9c8597996",
+    "title": "Homepage Builder",
+    "fields": [
+        {
+            "key": "field_57ea9c8f2a4fc",
+            "label": "Homepage Sections",
+            "name": "homepage_sections",
+            "type": "flexible_content",
+            "instructions": "Add and Organize Homepage Sections",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Add New Section",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "57ea9ca5e4ac1",
+                    "name": "jumbotron_section",
+                    "label": "Jumbotron Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57edf6032c3e5",
+                            "label": "Background Color",
+                            "name": "jumbotron_background_color",
+                            "type": "color_picker",
+                            "instructions": "Select the Background Color",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        },
+                        {
+                            "key": "field_57ea9e4e168d2",
+                            "label": "Title",
+                            "name": "jumbotron_title",
+                            "type": "text",
+                            "instructions": "Enter the section Title",
+                            "required": "",
+                            "conditional_logic": "",
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57eaed4b698f0",
+                            "label": "Subtitle",
+                            "name": "jumbotron_subtitle",
+                            "type": "textarea",
+                            "instructions": "Enter the section Paragraph",
+                            "required": "",
+                            "conditional_logic": "",
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_57ed209a5d5cf",
+                            "label": "Text button",
+                            "name": "jumbotron_btn_text",
+                            "type": "text",
+                            "instructions": "Type the content of the button",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Learn more",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ed1e8fa3c79",
+                            "label": "Link",
+                            "name": "jumbotron_link",
+                            "type": "page_link",
+                            "instructions": "Select a Link",
+                            "required": "",
+                            "conditional_logic": "",
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": "",
+                            "allow_archives": "",
+                            "multiple": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "57ed8c3d0b9bb",
+                    "name": "cta_section",
+                    "label": "CTA Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57ef99419ebd2",
+                            "label": "Background Color",
+                            "name": "cta_background_color",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": ""
+                        },
+                        {
+                            "key": "field_57ed8c3d0b9bc",
+                            "label": "Title",
+                            "name": "cta_title",
+                            "type": "text",
+                            "instructions": "Enter the section Title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ed8c3d0b9bd",
+                            "label": "Paragraph",
+                            "name": "cta_paragraph",
+                            "type": "textarea",
+                            "instructions": "Enter the section Paragraph",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_57ed8c3d0b9bf",
+                            "label": "Text button",
+                            "name": "cta_btn_text",
+                            "type": "text",
+                            "instructions": "Type the content of the button",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ed8c3d0b9c0",
+                            "label": "Link",
+                            "name": "cta_link",
+                            "type": "page_link",
+                            "instructions": "Select a Link",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "57ee437dd4da5",
+                    "name": "three_columns_section",
+                    "label": "3 Columns Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57ee437dd4da6",
+                            "label": "Title Column 01",
+                            "name": "three_columns_title01",
+                            "type": "text",
+                            "instructions": "Enter the section Title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee437dd4da7",
+                            "label": "Paragraph Columns 01",
+                            "name": "three_columns_paragraph01",
+                            "type": "textarea",
+                            "instructions": "Enter the section Paragraph",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_57ee437dd4da8",
+                            "label": "Text button Column 01",
+                            "name": "three_columns_btn_tex01",
+                            "type": "text",
+                            "instructions": "Type the content of the button",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee437dd4da9",
+                            "label": "Link Column 01",
+                            "name": "three_columns_link01",
+                            "type": "page_link",
+                            "instructions": "Select a Link",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_57ee43bcd4daa",
+                            "label": "Title Column 02",
+                            "name": "three_columns_title02",
+                            "type": "text",
+                            "instructions": "Enter the section Title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee4441ea620",
+                            "label": "Paragraph Columns 02",
+                            "name": "three_columns_paragraph02",
+                            "type": "textarea",
+                            "instructions": "Enter the section Paragraph",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_57ee45e0a7bc9",
+                            "label": "Text button Column 02",
+                            "name": "three_columns_btn_tex02",
+                            "type": "text",
+                            "instructions": "Type the content of the button",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee45fba7bcb",
+                            "label": "Link Column 02",
+                            "name": "three_columns_link02",
+                            "type": "page_link",
+                            "instructions": "Select a Link",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_57ee43ddd4dab",
+                            "label": "Title Column 03",
+                            "name": "three_columns_title03",
+                            "type": "text",
+                            "instructions": "Enter the section Title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee444cea621",
+                            "label": "Paragraph Columns 03",
+                            "name": "three_columns_paragraph03",
+                            "type": "textarea",
+                            "instructions": "Enter the section Paragraph",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_57ee45dfa7bc8",
+                            "label": "Text button Column 03",
+                            "name": "three_columns_btn_tex03",
+                            "type": "text",
+                            "instructions": "Type the content of the button",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_57ee45faa7bca",
+                            "label": "Link Column 03",
+                            "name": "three_columns_link03",
+                            "type": "page_link",
+                            "instructions": "Select a Link",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2197"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1475511458
+}
